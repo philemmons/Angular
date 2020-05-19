@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "ashardalon-5e": {
+      "hosting": {
+        "angular-example": [
+          "ashardalon-5e"
+        ]
+      }
+    }
+  }
+}

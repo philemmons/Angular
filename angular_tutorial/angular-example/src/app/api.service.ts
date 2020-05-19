@@ -57,7 +57,8 @@ export class ApiService {
 
   public get(){  
     // Add safe, URL encoded _page and _limit parameters 
-    return this.httpClient.get(this.SERVER_URL, {  params: new HttpParams({fromString: "_page=1&_limit=20"}), observe: "response"}).pipe(retry(3), catchError(this.handleError), tap(res => {
+	return this.httpClient.get(this.SERVER_URL, {  params: new HttpParams({fromString: "_page=1&_limit=5"}), 
+		observe: "response"}).pipe(retry(3), catchError(this.handleError), tap(res => {
 		console.log(res.headers.get('Link'));
 		this.parseLinkHeader(res.headers.get('Link'));
 	  }));

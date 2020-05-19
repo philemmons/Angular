@@ -40,3 +40,8 @@ This tutorial is divided into the following steps:
     Step 9 — Handling HTTP Errors
     Step 10 — Adding Pagination
     Step 11 — Building and Deploying your Angular Application to Firebase
+
+# FInal Product
+
+> Project Console: https://console.firebase.google.com/project/ashardalon-5e/overview 
+> Hosting URL: https://ashardalon-5e.web.app
